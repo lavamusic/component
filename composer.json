@@ -1,5 +1,5 @@
 {
-    "name": "easyswoole/component",
+    "name": "lavamusic/component",
     "type": "library",
     "description": "easyswoole component",
     "keywords" : ["swoole", "framework", "async","easyswoole"],
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "ext-swoole":"^4.4.2",
+        "ext-swoole":"^4.4.2|^5.0",
         "easyswoole/utility": "^1.0",
         "easyswoole/spl": "^1.1"
     },
