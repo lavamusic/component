@@ -18,9 +18,9 @@ class Manager
     protected $table;
 
 
-    public function __construct()
+    public function __construct(int $tableSize = 2048)
     {
-        $this->table = new Table(2048);
+        $this->table = new Table($tableSize);
         $this->table->column('pid', Table::TYPE_INT, 8);
         $this->table->column('name', Table::TYPE_STRING, 50);
         $this->table->column('group', Table::TYPE_STRING, 50);
